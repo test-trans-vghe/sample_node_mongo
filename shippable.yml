@@ -1,9 +1,11 @@
 # Language setting
 language: node_js
-
+build_image: drydock/u12nodall:tip
 # Version number
 node_js:
   - 0.10.25
+  - 4.0
+  - 5.0
 
 # Mongo binds to 127.0.0.1 by default
 services:
